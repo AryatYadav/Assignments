@@ -1,0 +1,32 @@
+.attendee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+}
+.checked-in {
+  background-color: #96d35f;
+  color: white;
+}
+.not-checked-in {
+  background-color: #ff8c82;
+  color: white;
+}
+.container{
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+button{
+  background-color: #3a87fe;
+  border-radius: 5px;
+  color: white;
+  height: 20px;
+}
+body{
+  background-color: #ebebeb;
+}

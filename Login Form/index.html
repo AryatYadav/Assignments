@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Login</h1>
+  <div class="container">
+  <form type="submit" onsubmit="abc()">
+    <label for="username">Username:</label><br>
+    <input type="email" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"required><br>
+    <br>
+    <label for="captcha">Enter Captcha :</label><br>
+    <span id="captcha-equation"></span> = <input type="text" id="captcha" name="captcha" placeholder="Enter captcha text"><br>
+    <button type="submit">Login</button>
+  </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

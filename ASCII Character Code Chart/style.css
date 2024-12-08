@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+}
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  background-color: green;
+  color: white;
+}
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background-color: #f2f2f2;;
+}
+.highlight {
+  background-color: yellow;
+}
+#search-bar {
+  margin-bottom: 10px;
+}

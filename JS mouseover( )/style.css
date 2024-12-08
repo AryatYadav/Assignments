@@ -1,0 +1,17 @@
+body{
+  background-color: #ebebeb;
+  text-align: center;
+}
+.container{
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+}
+button{
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  height: 30%;
+  width:90%
+}

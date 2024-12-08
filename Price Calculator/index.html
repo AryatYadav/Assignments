@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Price Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Final Price Calculator</h1>
+  <label for="originalPrice">Original Price ($):</label><br>
+  <input type="number" id="originalPrice" name="originalPrice"><br
+  <label for="discountAmount">Discount Amount ($):</label><br>
+  <input type="number" id="discountAmount" name="discountAmount"><br>
+  <label for="taxRate">Tax Rate (%):</label><br>
+  <input type="number" id="taxRate" name="taxRate"><br><br>
+  <button onclick="calculatePrice()">Calculate Final Price</button>
+  <br><br>
+    </div>
+    <p id="finalPrice"></p>
+  
+  <script src="script.js"></script>
+</body>
+</html>

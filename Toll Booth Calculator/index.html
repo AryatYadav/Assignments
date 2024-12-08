@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Toll Booth Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Toll Booth Calculator</h1>
+        <form id="toll-form">
+            <label for="vehicle-type">Select Vehicle Type:</label>
+            <select id="vehicle-type" required>
+         
+                <option value="car">Car</option>
+                <option value="truck">Truck</option>
+                <option value="motorcycle">Motorcycle</option>
+                
+            </select>
+            <br>
+            <input type="checkbox" id="emergency" name="emergency">
+            <label for="emergency">Is this an emergency vehicle?</label>
+
+            <br>
+
+            <button type="submit">Calculate Toll</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

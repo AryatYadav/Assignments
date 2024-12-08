@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: lightpink;
+}
+select{
+ border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  
+}
+ul{
+  background-color: #a7c6ff;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #3a87fe;
+  width: 80%;
+}
+input{
+  border: 2px solid black;
+}
